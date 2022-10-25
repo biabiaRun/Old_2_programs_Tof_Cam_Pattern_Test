@@ -12,6 +12,7 @@ include_directories(
     ${CMAKE_CURRENT_SOURCE_DIR}/inc
     ${CMAKE_CURRENT_SOURCE_DIR}/../inc
     ${CMAKE_CURRENT_SOURCE_DIR}/../../royale/source/core/inc
+    ${CMAKE_CURRENT_SOURCE_DIR}/../../royale/source/royale/inc
     )
 
 set(HEADERS
@@ -27,14 +28,12 @@ set(SOURCES
 link_directories(
     )
 
-add_executable(iqc-testing
+add_executable(pattern-testing
     ${HEADERS}
     ${SOURCES}
     )
   
-install(TARGETS iqc-testing DESTINATION ${ROYALE_INSTALL_BIN_DIR})
+install(TARGETS pattern-testing DESTINATION ${ROYALE_INSTALL_BIN_DIR})
 
-target_link_libraries(iqc-testing platform)
-
-
+target_link_libraries(pattern-testing platform)
 

@@ -86,7 +86,7 @@ class MyRawListener : public royale::IExtendedDataListener
 
     
         //GENERATE EXPECTED LIST
-        testPattern = 1;
+        testPattern = 2;
         switch (testPattern)
         {
             case 1:
@@ -95,14 +95,16 @@ class MyRawListener : public royale::IExtendedDataListener
                 //cout << "\n====== PRINT OUT EXPECTED ARRAY ====== \n";
                 for (counter = 0; counter < arraySize - 1 + 10; counter++)
                 {
-                    if (expectedArray[counter] < 0xdf){
+                    if (expectedArray[counter] < 0xDF)
+                    {
                         //cout << left << setfill(' ') << setw(5) << hex << expectedArray[counter] << " ";
                         //expectedArray[counter + 1] = expectedArray[counter] + inc; 
-                        expectedArray[counter + 1] = expectedArray[counter] + 0x1; 
+                        expectedArray[counter + 1] = expectedArray[counter] + 1; 
 
                     }
-                    else{
-                        expectedArray[counter + 1] = 0x0;
+                    else
+                    {
+                        expectedArray[counter + 1] = 0;
                     } 
                 }
                 break;
@@ -113,12 +115,14 @@ class MyRawListener : public royale::IExtendedDataListener
                 //const int inc = 0x1;
                 //cout << "\n====== PRINT OUT EXPECTED ARRAY ====== \n";
                 for (counter = 0; counter < arraySize - 1 + 10; counter++){
-                    if (expectedArray[counter] < 0xfff){
+                    if (expectedArray[counter] < 0xFFF)
+                    {
                         //cout << left << setfill(' ') << setw(5) << hex << expectedArray[counter] << " ";
-                        expectedArray[counter + 1] = expectedArray[counter] + 0x1; 
+                        expectedArray[counter + 1] = expectedArray[counter] + 1; 
                     }
-                    else{
-                        expectedArray[counter + 1] = 0x0;
+                    else
+                    {
+                        expectedArray[counter + 1] = 0;
                     } 
                 }
                 break;
@@ -215,7 +219,7 @@ class MyRawListener : public royale::IExtendedDataListener
             }
         } 
 
-        cout << " Please see data in home/root/Comparison.txt" << endl;
+        cout << "\nPlease see data in home/root/Comparison.txt" << endl;
         outdata.close();
     }
     
@@ -316,5 +320,4 @@ int main()
 
     return 0;
 }
-
 

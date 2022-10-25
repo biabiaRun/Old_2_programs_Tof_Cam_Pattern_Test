@@ -61,7 +61,7 @@ int main(int argc, char **argv)
           case 'm':
             options.test_mode = royale::String(optarg);
             std::cout << "Setting ToF Mode: " << options.test_mode << std::endl;
-            break;
+            break; 
           case 'h':
           default:
             print_help();
@@ -74,13 +74,10 @@ int main(int argc, char **argv)
       std::cout << "Setting ToF Mode: " << options.test_mode << std::endl;
     }
 
-    // [Setup] Camera Initialization Test
-//    Camera::CameraError error = cam.RunInitializeTests(options.test_mode);
-//    if (EXIT_ON_ERROR && error != Camera::CameraError::NONE) { return error; }
+    // [Setup] Camera Config Test
+    Camera::CameraError error = cam.RunConfigTests(2);
+    if (EXIT_ON_ERROR && error != Camera::CameraError::NONE) { return error; }
 
-    // [Setup] Camera Stream Tests
-//    error = cam.RunStreamTests();
-//    if (EXIT_ON_ERROR && error != Camera::CameraError::NONE) { return error; }
 
     // [Setup] Access Level Test
     Camera::CameraError error;
@@ -88,25 +85,10 @@ int main(int argc, char **argv)
     else { error = cam.RunAccessLevelTests(1); }
     if (EXIT_ON_ERROR && error != Camera::CameraError::NONE) { return error; }
 
-    // [Optional] Use Case Tests  Waiting on Emcraft to get all use cases working
-    // error = cam.RunUseCaseTests();
-    // if (EXIT_ON_ERROR && error != Camera::CameraError::NONE) { return error; }
 
-    // [Setup] Exposure Tests
-//    error = cam.RunExposureTests();
-//    if (EXIT_ON_ERROR && error != Camera::CameraError::NONE) { return error; }
-//
-//    // [Setup] Processing Parameters Test
-//    error = cam.RunProcessingParametersTests();
-//    if (EXIT_ON_ERROR && error != Camera::CameraError::NONE) { return error; }
-//
-//    // [Setup] Lens Parameters Test
-//    error = cam.RunLensParametersTest();
-//    if (EXIT_ON_ERROR && error != Camera::CameraError::NONE) { return error; }
-//
-//    // [Streaming] Test Receive Data
-//    error = cam.RunTestReceiveData(options.numSecondsToStream);
-//    if (EXIT_ON_ERROR && error != Camera::CameraError::NONE) { return error; }
+    // [Streaming] Pattern Test
+    error = cam.RunPatternTest();
+    if (EXIT_ON_ERROR && error != Camera::CameraError::NONE) { return error; }
 
     return 0;
 }

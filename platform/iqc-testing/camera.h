@@ -75,13 +75,9 @@ public:
     inline const std::string GetID() const { return id_; }
 
     CameraError RunAccessLevelTests(int user_level);
-    CameraError RunExposureTests();
-    CameraError RunInitializeTests(royale::String useCase);
-    CameraError RunProcessingParametersTests();
-    CameraError RunStreamTests();
-    CameraError RunUseCaseTests();
-    CameraError RunLensParametersTest();
-    CameraError RunTestReceiveData(int secondsToStream);
+    CameraError RunConfigTests(int testPattern);
+    CameraError RunPatternTest();
+        
 };
 
 #endif // __CAMERA_H__

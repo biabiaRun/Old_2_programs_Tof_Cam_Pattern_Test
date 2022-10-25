@@ -4,64 +4,74 @@
 #include <unistd.h>
 #include <royale/ICameraDevice.hpp>
 #include <CameraFactory.hpp>
-#include <royale.hpp>
-#include "camera.h"
 
 using namespace std;
 using namespace royale;
 using namespace platform;
+#include "camera.h"
 
 std::string VERSION{"1.3"};
 const bool EXIT_ON_ERROR = true;
 
 void print_help() {
-  cout <<
-        "-v                   Show program version.\n"
-        "-r <n>               Set number of seconds to record: -r 60\n"
-        "-m <str>             Set ToF mode: -m MODE_9_5FPS\n"
+  std::cout <<
+        "-v                   Show program version\n"
+        "-l                   Set line counter test pattern\n"
+        "-o                   Set overflow counter test pattern\n"
+        "-a                   Set alternating line counter and toggling constant test pattern\n"
+        "-t                   Set toggling constant test pattern\n"	
         "-h                   Show help\n";
   exit(EXIT_FAILURE);
 }
 
-#define OPTSTR "vr:m:h"
+#define OPTSTR "vr:m:h:loat"
 
 typedef struct {
   string         version;
   int            numSecondsToStream;
   royale::String test_mode;
+  int teston;
 } options_t;
 
 int main(int argc, char **argv)
 {
   int opt;
   // Default options
-  options_t options = { VERSION, 15, "MODE_9_5FPS" };
+  options_t options = { VERSION, 15, "MODE_9_5FPS", 1};
   // std::string ACCESS_CODE = "d79dab562f13ef8373e906d919aec323a2857388";
   std::string ACCESS_CODE = "c715e2ca31e816b1ef17ba487e2a5e9efc6bbd7b";
   // CameraFactory factory;
   Camera cam;
-
-  if (argc > 1) {
-    while ((opt = getopt(argc, argv, OPTSTR)) != -1) {
+  int testPattern;
+  Camera::CameraError error;
+  
+  
+  // [Verification] Access Level Test
+  if (!ACCESS_CODE.empty()) { error = cam.RunAccessLevelTests(3); }
+  else { error = cam.RunAccessLevelTests(1); }
+  if (EXIT_ON_ERROR && error != Camera::CameraError::NONE) { return error; }
+  
+      
+  if (argc > 1) 
+  {
+    while ((opt = getopt(argc, argv, OPTSTR)) != -1) 
+    {
       switch(opt) {
         case 'v':
-          cout << "Version: " << options.version << endl;
+          std::cout << "Version: " << options.version << std::endl;
           exit(EXIT_FAILURE);
           break;
-        case 'r':
-          options.numSecondsToStream = std::stoi(optarg);
-          if (options.numSecondsToStream < 10) {
-            options.numSecondsToStream = 10;
-            cout << "Minimum Streaming Time is 10 Seconds." << endl;
-          }
-          cout << "Streaming Time [seconds]: " << options.numSecondsToStream << endl;
-          if (options.numSecondsToStream > 300) {
-            cout << "USING STREAM TEST-MODE : Output will be stream to /dev/null" << endl;
-          }
+        case 'l':
+          testPattern = 1;
           break;
-        case 'm':
-          options.test_mode = royale::String(optarg);
-          cout << "Setting ToF Mode: " << options.test_mode << endl;
+        case 'o':
+          testPattern = 2;
+          break;
+        case 'a':
+          testPattern = 3;
+          break;
+        case 't':
+          testPattern = 4;
           break;
         case 'h':
         default:
@@ -72,25 +82,17 @@ int main(int argc, char **argv)
   }
   else
   {
-    // std::cout << "Using Default Settings." << std::endl;
-    cout << "== ToF Cam Pattern Test Start" << endl;
-    cout << "== Streaming Time [seconds]: " << options.numSecondsToStream << endl;
-    cout << "== Setting ToF Mode: " << options.test_mode << endl;
+    std::cout << "Using Default Settings." << std::endl;
+    std::cout << "Streaming Time [seconds]: " << options.numSecondsToStream << std::endl;
+    std::cout << "Setting ToF Mode: " << options.test_mode << std::endl;
   }
-
-  // [Setup] Camera Initialization Test
-  //Camera::CameraError error = cam.RunInitializeTests(options.test_mode);
-  //if (EXIT_ON_ERROR && error != Camera::CameraError::NONE) { return error; }
-
-  Camera::CameraError error;
-  // [Setup] Access Level Test
-  //if (!ACCESS_CODE.empty()) { error = cam.RunAccessLevelTests(3); }
-  //else { error = cam.RunAccessLevelTests(1); }
-  //if (EXIT_ON_ERROR && error != Camera::CameraError::NONE) { return error; }
-
-  // [Streaming] Pattern Tests
-  error = cam.RunPatternTest(1);
+  
+  
+  // [Setup] Camera Config Test
+  error = cam.RunConfigTests(testPattern);
   if (EXIT_ON_ERROR && error != Camera::CameraError::NONE) { return error; }
-
+  
+  
   return 0;
 }
+
