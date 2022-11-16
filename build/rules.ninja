@@ -328,7 +328,7 @@ rule CXX_EXECUTABLE_LINKER__pattern-testing
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -H/home/local/NEATO/running.gao/Downloads/pmd-neato-platform-master_access3_w_4_patterns_including_comparison_1 -B/home/local/NEATO/running.gao/Downloads/pmd-neato-platform-master_access3_w_4_patterns_including_comparison_1/build
+  command = /opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -H/home/local/NEATO/running.gao/Downloads/2-in-2_ToF_Cam_Pattern_Test -B/home/local/NEATO/running.gao/Downloads/2-in-2_ToF_Cam_Pattern_Test/build
   description = Re-running CMake...
   generator = 1
 

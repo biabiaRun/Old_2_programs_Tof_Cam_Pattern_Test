@@ -1,18 +1,18 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/local/NEATO/running.gao/Downloads/pmd-neato-platform-master_access3_w_4_patterns_including_comparison_1/build/CMakeFiles/CMakeTmp
+Change Dir: /home/local/NEATO/running.gao/Downloads/2-in-2_ToF_Cam_Pattern_Test/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/ninja" "cmTC_1acf7"
-[1/2] Building C object CMakeFiles/cmTC_1acf7.dir/CheckSymbolExists.c.o
-[2/2] Linking C executable cmTC_1acf7
-FAILED: cmTC_1acf7 
-: && /opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc   --sysroot=/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux -O2 -pipe -g -feliminate-unused-debug-types  -fPIC -Wall -Wconversion -D_FILE_OFFSET_BITS=64 -ftree-vectorize -ffast-math -fno-short-enums  -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed   -rdynamic CMakeFiles/cmTC_1acf7.dir/CheckSymbolExists.c.o  -o cmTC_1acf7   && :
-CMakeFiles/cmTC_1acf7.dir/CheckSymbolExists.c.o: In function `main':
-/home/local/NEATO/running.gao/Downloads/pmd-neato-platform-master_access3_w_4_patterns_including_comparison_1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: undefined reference to `pthread_create'
-/home/local/NEATO/running.gao/Downloads/pmd-neato-platform-master_access3_w_4_patterns_including_comparison_1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: undefined reference to `pthread_create'
+Run Build Command:"/usr/bin/ninja" "cmTC_f3dab"
+[1/2] Building C object CMakeFiles/cmTC_f3dab.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_f3dab
+FAILED: cmTC_f3dab 
+: && /opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc   --sysroot=/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux -O2 -pipe -g -feliminate-unused-debug-types  -fPIC -Wall -Wconversion -D_FILE_OFFSET_BITS=64 -ftree-vectorize -ffast-math -fno-short-enums  -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed   -rdynamic CMakeFiles/cmTC_f3dab.dir/CheckSymbolExists.c.o  -o cmTC_f3dab   && :
+CMakeFiles/cmTC_f3dab.dir/CheckSymbolExists.c.o: In function `main':
+/home/local/NEATO/running.gao/Downloads/2-in-2_ToF_Cam_Pattern_Test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: undefined reference to `pthread_create'
+/home/local/NEATO/running.gao/Downloads/2-in-2_ToF_Cam_Pattern_Test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
 ninja: build stopped: subcommand failed.
 
-File /home/local/NEATO/running.gao/Downloads/pmd-neato-platform-master_access3_w_4_patterns_including_comparison_1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/local/NEATO/running.gao/Downloads/2-in-2_ToF_Cam_Pattern_Test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -28,13 +28,13 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/local/NEATO/running.gao/Downloads/pmd-neato-platform-master_access3_w_4_patterns_including_comparison_1/build/CMakeFiles/CMakeTmp
+Change Dir: /home/local/NEATO/running.gao/Downloads/2-in-2_ToF_Cam_Pattern_Test/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/ninja" "cmTC_2400b"
-[1/2] Building C object CMakeFiles/cmTC_2400b.dir/CheckFunctionExists.c.o
-[2/2] Linking C executable cmTC_2400b
-FAILED: cmTC_2400b 
-: && /opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc   --sysroot=/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux -O2 -pipe -g -feliminate-unused-debug-types  -fPIC -Wall -Wconversion -D_FILE_OFFSET_BITS=64 -ftree-vectorize -ffast-math -fno-short-enums -DCHECK_FUNCTION_EXISTS=pthread_create  -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed   -rdynamic CMakeFiles/cmTC_2400b.dir/CheckFunctionExists.c.o  -o cmTC_2400b  -lpthreads && :
+Run Build Command:"/usr/bin/ninja" "cmTC_69f1f"
+[1/2] Building C object CMakeFiles/cmTC_69f1f.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_69f1f
+FAILED: cmTC_69f1f 
+: && /opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc   --sysroot=/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux -O2 -pipe -g -feliminate-unused-debug-types  -fPIC -Wall -Wconversion -D_FILE_OFFSET_BITS=64 -ftree-vectorize -ffast-math -fno-short-enums -DCHECK_FUNCTION_EXISTS=pthread_create  -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed   -rdynamic CMakeFiles/cmTC_69f1f.dir/CheckFunctionExists.c.o  -o cmTC_69f1f  -lpthreads && :
 /opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/real-ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
 ninja: build stopped: subcommand failed.

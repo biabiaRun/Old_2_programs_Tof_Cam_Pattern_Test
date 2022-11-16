@@ -1,8 +1,8 @@
-# Install script for directory: /home/local/NEATO/running.gao/Downloads/pmd-neato-platform-master_access3_w_4_patterns_including_comparison_1
+# Install script for directory: /home/local/NEATO/running.gao/Downloads/2-in-2_ToF_Cam_Pattern_Test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/local/NEATO/running.gao/Downloads/pmd-neato-platform-master_access3_w_4_patterns_including_comparison_1/build/install")
+  set(CMAKE_INSTALL_PREFIX "/home/local/NEATO/running.gao/Downloads/2-in-2_ToF_Cam_Pattern_Test/build/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,27 +38,27 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE FILE FILES "/home/local/NEATO/running.gao/Downloads/pmd-neato-platform-master_access3_w_4_patterns_including_comparison_1/build/royale-config.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE FILE FILES "/home/local/NEATO/running.gao/Downloads/2-in-2_ToF_Cam_Pattern_Test/build/royale-config.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE FILE FILES "/home/local/NEATO/running.gao/Downloads/pmd-neato-platform-master_access3_w_4_patterns_including_comparison_1/royale/cmake/Modules/FindOpenNI2.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE FILE FILES "/home/local/NEATO/running.gao/Downloads/2-in-2_ToF_Cam_Pattern_Test/royale/cmake/Modules/FindOpenNI2.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE FILE FILES "/home/local/NEATO/running.gao/Downloads/pmd-neato-platform-master_access3_w_4_patterns_including_comparison_1/royale/cmake/Modules/FindNumpy.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE FILE FILES "/home/local/NEATO/running.gao/Downloads/2-in-2_ToF_Cam_Pattern_Test/royale/cmake/Modules/FindNumpy.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/local/NEATO/running.gao/Downloads/pmd-neato-platform-master_access3_w_4_patterns_including_comparison_1/build/royale/cmake/configure/cmake_install.cmake")
-  include("/home/local/NEATO/running.gao/Downloads/pmd-neato-platform-master_access3_w_4_patterns_including_comparison_1/build/royale/cmake/sign/cmake_install.cmake")
-  include("/home/local/NEATO/running.gao/Downloads/pmd-neato-platform-master_access3_w_4_patterns_including_comparison_1/build/royale/contrib/gtest/cmake_install.cmake")
-  include("/home/local/NEATO/running.gao/Downloads/pmd-neato-platform-master_access3_w_4_patterns_including_comparison_1/build/royale/spectre/cmake_install.cmake")
-  include("/home/local/NEATO/running.gao/Downloads/pmd-neato-platform-master_access3_w_4_patterns_including_comparison_1/build/royale/source/core/cmake_install.cmake")
-  include("/home/local/NEATO/running.gao/Downloads/pmd-neato-platform-master_access3_w_4_patterns_including_comparison_1/build/royale/source/components/imager/cmake_install.cmake")
-  include("/home/local/NEATO/running.gao/Downloads/pmd-neato-platform-master_access3_w_4_patterns_including_comparison_1/build/royale/source/components/record/cmake_install.cmake")
-  include("/home/local/NEATO/running.gao/Downloads/pmd-neato-platform-master_access3_w_4_patterns_including_comparison_1/build/platform/cmake_install.cmake")
+  include("/home/local/NEATO/running.gao/Downloads/2-in-2_ToF_Cam_Pattern_Test/build/royale/cmake/configure/cmake_install.cmake")
+  include("/home/local/NEATO/running.gao/Downloads/2-in-2_ToF_Cam_Pattern_Test/build/royale/cmake/sign/cmake_install.cmake")
+  include("/home/local/NEATO/running.gao/Downloads/2-in-2_ToF_Cam_Pattern_Test/build/royale/contrib/gtest/cmake_install.cmake")
+  include("/home/local/NEATO/running.gao/Downloads/2-in-2_ToF_Cam_Pattern_Test/build/royale/spectre/cmake_install.cmake")
+  include("/home/local/NEATO/running.gao/Downloads/2-in-2_ToF_Cam_Pattern_Test/build/royale/source/core/cmake_install.cmake")
+  include("/home/local/NEATO/running.gao/Downloads/2-in-2_ToF_Cam_Pattern_Test/build/royale/source/components/imager/cmake_install.cmake")
+  include("/home/local/NEATO/running.gao/Downloads/2-in-2_ToF_Cam_Pattern_Test/build/royale/source/components/record/cmake_install.cmake")
+  include("/home/local/NEATO/running.gao/Downloads/2-in-2_ToF_Cam_Pattern_Test/build/platform/cmake_install.cmake")
 
 endif()
 
@@ -70,5 +70,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/local/NEATO/running.gao/Downloads/pmd-neato-platform-master_access3_w_4_patterns_including_comparison_1/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/local/NEATO/running.gao/Downloads/2-in-2_ToF_Cam_Pattern_Test/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

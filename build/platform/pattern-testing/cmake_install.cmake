@@ -1,8 +1,8 @@
-# Install script for directory: /home/local/NEATO/running.gao/Downloads/pmd-neato-platform-master_access3_w_4_patterns_including_comparison_1/platform/pattern-testing
+# Install script for directory: /home/local/NEATO/running.gao/Downloads/2-in-2_ToF_Cam_Pattern_Test/platform/pattern-testing
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/local/NEATO/running.gao/Downloads/pmd-neato-platform-master_access3_w_4_patterns_including_comparison_1/build/install")
+  set(CMAKE_INSTALL_PREFIX "/home/local/NEATO/running.gao/Downloads/2-in-2_ToF_Cam_Pattern_Test/build/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,12 +44,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pattern-testing"
          RPATH "$ORIGIN/")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/local/NEATO/running.gao/Downloads/pmd-neato-platform-master_access3_w_4_patterns_including_comparison_1/build/bin/pattern-testing")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/local/NEATO/running.gao/Downloads/2-in-2_ToF_Cam_Pattern_Test/build/bin/pattern-testing")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pattern-testing" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pattern-testing")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pattern-testing"
-         OLD_RPATH "/home/local/NEATO/running.gao/Downloads/pmd-neato-platform-master_access3_w_4_patterns_including_comparison_1/build/bin:/home/local/NEATO/running.gao/Downloads/pmd-neato-platform-master_access3_w_4_patterns_including_comparison_1/royale/spectre/lib/Linux/arm/64Bit:"
+         OLD_RPATH "/home/local/NEATO/running.gao/Downloads/2-in-2_ToF_Cam_Pattern_Test/build/bin:/home/local/NEATO/running.gao/Downloads/2-in-2_ToF_Cam_Pattern_Test/royale/spectre/lib/Linux/arm/64Bit:"
          NEW_RPATH "$ORIGIN/")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pattern-testing")

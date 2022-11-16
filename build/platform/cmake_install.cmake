@@ -1,8 +1,8 @@
-# Install script for directory: /home/local/NEATO/running.gao/Downloads/pmd-neato-platform-master_access3_w_4_patterns_including_comparison_1/platform
+# Install script for directory: /home/local/NEATO/running.gao/Downloads/2-in-2_ToF_Cam_Pattern_Test/platform
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/local/NEATO/running.gao/Downloads/pmd-neato-platform-master_access3_w_4_patterns_including_comparison_1/build/install")
+  set(CMAKE_INSTALL_PREFIX "/home/local/NEATO/running.gao/Downloads/2-in-2_ToF_Cam_Pattern_Test/build/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -50,8 +50,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     endif()
   endforeach()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-    "/home/local/NEATO/running.gao/Downloads/pmd-neato-platform-master_access3_w_4_patterns_including_comparison_1/build/bin/libplatform.so.0.0.1"
-    "/home/local/NEATO/running.gao/Downloads/pmd-neato-platform-master_access3_w_4_patterns_including_comparison_1/build/bin/libplatform.so"
+    "/home/local/NEATO/running.gao/Downloads/2-in-2_ToF_Cam_Pattern_Test/build/bin/libplatform.so.0.0.1"
+    "/home/local/NEATO/running.gao/Downloads/2-in-2_ToF_Cam_Pattern_Test/build/bin/libplatform.so"
     )
   foreach(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libplatform.so.0.0.1"
@@ -61,7 +61,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
        NOT IS_SYMLINK "${file}")
       file(RPATH_CHANGE
            FILE "${file}"
-           OLD_RPATH "/home/local/NEATO/running.gao/Downloads/pmd-neato-platform-master_access3_w_4_patterns_including_comparison_1/royale/spectre/lib/Linux/arm/64Bit:"
+           OLD_RPATH "/home/local/NEATO/running.gao/Downloads/2-in-2_ToF_Cam_Pattern_Test/royale/spectre/lib/Linux/arm/64Bit:"
            NEW_RPATH "$ORIGIN/")
       if(CMAKE_INSTALL_DO_STRIP)
         execute_process(COMMAND "/opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-strip" "${file}")
@@ -72,9 +72,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/local/NEATO/running.gao/Downloads/pmd-neato-platform-master_access3_w_4_patterns_including_comparison_1/build/platform/test/cmake_install.cmake")
-  include("/home/local/NEATO/running.gao/Downloads/pmd-neato-platform-master_access3_w_4_patterns_including_comparison_1/build/platform/retrieveData/cmake_install.cmake")
-  include("/home/local/NEATO/running.gao/Downloads/pmd-neato-platform-master_access3_w_4_patterns_including_comparison_1/build/platform/pattern-testing/cmake_install.cmake")
+  include("/home/local/NEATO/running.gao/Downloads/2-in-2_ToF_Cam_Pattern_Test/build/platform/test/cmake_install.cmake")
+  include("/home/local/NEATO/running.gao/Downloads/2-in-2_ToF_Cam_Pattern_Test/build/platform/retrieveData/cmake_install.cmake")
+  include("/home/local/NEATO/running.gao/Downloads/2-in-2_ToF_Cam_Pattern_Test/build/platform/pattern-testing/cmake_install.cmake")
 
 endif()
 

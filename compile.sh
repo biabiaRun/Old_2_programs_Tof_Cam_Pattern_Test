@@ -1,7 +1,7 @@
 #!/bin/bash
 # this file is to delete the build folder and compile pattern-testing
 
-echo "----- MAKE SURE YOU ARE AT DIRECTORY /Downloads/pmd-neato-platform-master_access3_w_4_patterns_including_comparison_1$ -----"
+echo "----- MAKE SURE YOU ARE AT BELOW DIRECTORY $(pwd) "
 sleep 2
 echo
  

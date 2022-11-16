@@ -11,7 +11,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/local/NEATO/running.gao/Downloads/pmd-neato-platform-master_access3_w_4_patterns_including_comparison_1/build/CMakeFiles/3.10.3/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/local/NEATO/running.gao/Downloads/2-in-2_ToF_Cam_Pattern_Test/build/CMakeFiles/3.10.3/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++ --sysroot=/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux
@@ -24,22 +24,22 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/local/NEATO/running.gao/Downloads/pmd-neato-platform-master_access3_w_4_patterns_including_comparison_1/build/CMakeFiles/3.10.3/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/local/NEATO/running.gao/Downloads/2-in-2_ToF_Cam_Pattern_Test/build/CMakeFiles/3.10.3/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/local/NEATO/running.gao/Downloads/pmd-neato-platform-master_access3_w_4_patterns_including_comparison_1/build/CMakeFiles/CMakeTmp
+Change Dir: /home/local/NEATO/running.gao/Downloads/2-in-2_ToF_Cam_Pattern_Test/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/ninja" "cmTC_0f9a8"
-[1/2] Building C object CMakeFiles/cmTC_0f9a8.dir/testCCompiler.c.o
-[2/2] Linking C executable cmTC_0f9a8
+Run Build Command:"/usr/bin/ninja" "cmTC_41c0c"
+[1/2] Building C object CMakeFiles/cmTC_41c0c.dir/testCCompiler.c.o
+[2/2] Linking C executable cmTC_41c0c
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/local/NEATO/running.gao/Downloads/pmd-neato-platform-master_access3_w_4_patterns_including_comparison_1/build/CMakeFiles/CMakeTmp
+Change Dir: /home/local/NEATO/running.gao/Downloads/2-in-2_ToF_Cam_Pattern_Test/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/ninja" "cmTC_180fa"
-[1/2] Building C object CMakeFiles/cmTC_180fa.dir/CMakeCCompilerABI.c.o
-[2/2] Linking C executable cmTC_180fa
+Run Build Command:"/usr/bin/ninja" "cmTC_46e8f"
+[1/2] Building C object CMakeFiles/cmTC_46e8f.dir/CMakeCCompilerABI.c.o
+[2/2] Linking C executable cmTC_46e8f
 Using built-in specs.
 COLLECT_GCC=/opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc
 COLLECT_LTO_WRAPPER=/opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/lto-wrapper
@@ -49,18 +49,18 @@ Thread model: posix
 gcc version 7.3.0 (GCC) 
 COMPILER_PATH=/opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/:/opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/:/opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/:/opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/:/opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/
 LIBRARY_PATH=/opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/:/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/lib/:/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0/:/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/
-COLLECT_GCC_OPTIONS='--sysroot=/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-rdynamic' '-o' 'cmTC_180fa' '-mlittle-endian' '-mabi=lp64'
- /opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/collect2 -plugin /opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/liblto_plugin.so -plugin-opt=/opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cctsuewN.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux --build-id --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_180fa /opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/crt1.o /opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/crti.o /opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0/crtbegin.o -L/opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0 -L/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/lib -L/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0 -L/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib -O1 --hash-style=gnu --as-needed CMakeFiles/cmTC_180fa.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0/crtend.o /opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/crtn.o
-COLLECT_GCC_OPTIONS='--sysroot=/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-rdynamic' '-o' 'cmTC_180fa' '-mlittle-endian' '-mabi=lp64'
+COLLECT_GCC_OPTIONS='--sysroot=/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-rdynamic' '-o' 'cmTC_46e8f' '-mlittle-endian' '-mabi=lp64'
+ /opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/collect2 -plugin /opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/liblto_plugin.so -plugin-opt=/opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccOuQjFL.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux --build-id --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_46e8f /opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/crt1.o /opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/crti.o /opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0/crtbegin.o -L/opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0 -L/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/lib -L/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0 -L/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib -O1 --hash-style=gnu --as-needed CMakeFiles/cmTC_46e8f.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0/crtend.o /opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='--sysroot=/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-rdynamic' '-o' 'cmTC_46e8f' '-mlittle-endian' '-mabi=lp64'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(aarch64-poky-linux-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/local/NEATO/running.gao/Downloads/pmd-neato-platform-master_access3_w_4_patterns_including_comparison_1/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/local/NEATO/running.gao/Downloads/2-in-2_ToF_Cam_Pattern_Test/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/ninja" "cmTC_180fa"]
-  ignore line: [[1/2] Building C object CMakeFiles/cmTC_180fa.dir/CMakeCCompilerABI.c.o]
-  ignore line: [[2/2] Linking C executable cmTC_180fa]
+  ignore line: [Run Build Command:"/usr/bin/ninja" "cmTC_46e8f"]
+  ignore line: [[1/2] Building C object CMakeFiles/cmTC_46e8f.dir/CMakeCCompilerABI.c.o]
+  ignore line: [[2/2] Linking C executable cmTC_46e8f]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc]
   ignore line: [COLLECT_LTO_WRAPPER=/opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/lto-wrapper]
@@ -70,13 +70,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.3.0 (GCC) ]
   ignore line: [COMPILER_PATH=/opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/:/opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/:/opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/:/opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/:/opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/]
   ignore line: [LIBRARY_PATH=/opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/:/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/lib/:/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0/:/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-rdynamic' '-o' 'cmTC_180fa' '-mlittle-endian' '-mabi=lp64']
-  link line: [ /opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/collect2 -plugin /opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/liblto_plugin.so -plugin-opt=/opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cctsuewN.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux --build-id --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_180fa /opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/crt1.o /opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/crti.o /opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0/crtbegin.o -L/opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0 -L/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/lib -L/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0 -L/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib -O1 --hash-style=gnu --as-needed CMakeFiles/cmTC_180fa.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0/crtend.o /opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-rdynamic' '-o' 'cmTC_46e8f' '-mlittle-endian' '-mabi=lp64']
+  link line: [ /opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/collect2 -plugin /opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/liblto_plugin.so -plugin-opt=/opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccOuQjFL.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux --build-id --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_46e8f /opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/crt1.o /opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/crti.o /opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0/crtbegin.o -L/opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0 -L/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/lib -L/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0 -L/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib -O1 --hash-style=gnu --as-needed CMakeFiles/cmTC_46e8f.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0/crtend.o /opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/crtn.o]
     arg [/opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cctsuewN.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccOuQjFL.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -93,7 +93,7 @@ Parsed C implicit link information from above output:
     arg [-EL] ==> ignore
     arg [-maarch64linux] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_180fa] ==> ignore
+    arg [cmTC_46e8f] ==> ignore
     arg [/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/crt1.o] ==> ignore
     arg [/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/crti.o] ==> ignore
     arg [/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0/crtbegin.o] ==> ignore
@@ -104,7 +104,7 @@ Parsed C implicit link information from above output:
     arg [-O1] ==> ignore
     arg [--hash-style=gnu] ==> ignore
     arg [--as-needed] ==> ignore
-    arg [CMakeFiles/cmTC_180fa.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_46e8f.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -128,11 +128,11 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/local/NEATO/running.gao/Downloads/pmd-neato-platform-master_access3_w_4_patterns_including_comparison_1/build/CMakeFiles/CMakeTmp
+Change Dir: /home/local/NEATO/running.gao/Downloads/2-in-2_ToF_Cam_Pattern_Test/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/ninja" "cmTC_c47da"
-[1/2] Building C object CMakeFiles/cmTC_c47da.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_c47da
+Run Build Command:"/usr/bin/ninja" "cmTC_ce201"
+[1/2] Building C object CMakeFiles/cmTC_ce201.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_ce201
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -142,11 +142,11 @@ Run Build Command:"/usr/bin/ninja" "cmTC_c47da"
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/local/NEATO/running.gao/Downloads/pmd-neato-platform-master_access3_w_4_patterns_including_comparison_1/build/CMakeFiles/CMakeTmp
+Change Dir: /home/local/NEATO/running.gao/Downloads/2-in-2_ToF_Cam_Pattern_Test/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/ninja" "cmTC_25ba3"
-[1/2] Building C object CMakeFiles/cmTC_25ba3.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_25ba3
+Run Build Command:"/usr/bin/ninja" "cmTC_d0807"
+[1/2] Building C object CMakeFiles/cmTC_d0807.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_d0807
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -156,11 +156,11 @@ Run Build Command:"/usr/bin/ninja" "cmTC_25ba3"
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/local/NEATO/running.gao/Downloads/pmd-neato-platform-master_access3_w_4_patterns_including_comparison_1/build/CMakeFiles/CMakeTmp
+Change Dir: /home/local/NEATO/running.gao/Downloads/2-in-2_ToF_Cam_Pattern_Test/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/ninja" "cmTC_63846"
-[1/2] Building C object CMakeFiles/cmTC_63846.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_63846
+Run Build Command:"/usr/bin/ninja" "cmTC_cb773"
+[1/2] Building C object CMakeFiles/cmTC_cb773.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_cb773
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -168,19 +168,19 @@ Run Build Command:"/usr/bin/ninja" "cmTC_63846"
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/local/NEATO/running.gao/Downloads/pmd-neato-platform-master_access3_w_4_patterns_including_comparison_1/build/CMakeFiles/CMakeTmp
+Change Dir: /home/local/NEATO/running.gao/Downloads/2-in-2_ToF_Cam_Pattern_Test/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/ninja" "cmTC_cc7c2"
-[1/2] Building CXX object CMakeFiles/cmTC_cc7c2.dir/testCXXCompiler.cxx.o
-[2/2] Linking CXX executable cmTC_cc7c2
+Run Build Command:"/usr/bin/ninja" "cmTC_ba55d"
+[1/2] Building CXX object CMakeFiles/cmTC_ba55d.dir/testCXXCompiler.cxx.o
+[2/2] Linking CXX executable cmTC_ba55d
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/local/NEATO/running.gao/Downloads/pmd-neato-platform-master_access3_w_4_patterns_including_comparison_1/build/CMakeFiles/CMakeTmp
+Change Dir: /home/local/NEATO/running.gao/Downloads/2-in-2_ToF_Cam_Pattern_Test/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/ninja" "cmTC_2cf07"
-[1/2] Building CXX object CMakeFiles/cmTC_2cf07.dir/CMakeCXXCompilerABI.cpp.o
-[2/2] Linking CXX executable cmTC_2cf07
+Run Build Command:"/usr/bin/ninja" "cmTC_089f0"
+[1/2] Building CXX object CMakeFiles/cmTC_089f0.dir/CMakeCXXCompilerABI.cpp.o
+[2/2] Linking CXX executable cmTC_089f0
 Using built-in specs.
 COLLECT_GCC=/opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++
 COLLECT_LTO_WRAPPER=/opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/lto-wrapper
@@ -190,18 +190,18 @@ Thread model: posix
 gcc version 7.3.0 (GCC) 
 COMPILER_PATH=/opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/:/opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/:/opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/:/opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/:/opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/
 LIBRARY_PATH=/opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/:/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/lib/:/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0/:/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/
-COLLECT_GCC_OPTIONS='--sysroot=/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-rdynamic' '-o' 'cmTC_2cf07' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
- /opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/collect2 -plugin /opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/liblto_plugin.so -plugin-opt=/opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccLNKetQ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux --build-id --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_2cf07 /opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/crt1.o /opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/crti.o /opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0/crtbegin.o -L/opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0 -L/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/lib -L/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0 -L/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib -O1 --hash-style=gnu --as-needed CMakeFiles/cmTC_2cf07.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0/crtend.o /opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/crtn.o
-COLLECT_GCC_OPTIONS='--sysroot=/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-rdynamic' '-o' 'cmTC_2cf07' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+COLLECT_GCC_OPTIONS='--sysroot=/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-rdynamic' '-o' 'cmTC_089f0' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+ /opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/collect2 -plugin /opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/liblto_plugin.so -plugin-opt=/opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc58nZ8Z.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux --build-id --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_089f0 /opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/crt1.o /opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/crti.o /opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0/crtbegin.o -L/opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0 -L/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/lib -L/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0 -L/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib -O1 --hash-style=gnu --as-needed CMakeFiles/cmTC_089f0.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0/crtend.o /opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='--sysroot=/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-rdynamic' '-o' 'cmTC_089f0' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(aarch64-poky-linux-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/local/NEATO/running.gao/Downloads/pmd-neato-platform-master_access3_w_4_patterns_including_comparison_1/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/local/NEATO/running.gao/Downloads/2-in-2_ToF_Cam_Pattern_Test/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/ninja" "cmTC_2cf07"]
-  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_2cf07.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [[2/2] Linking CXX executable cmTC_2cf07]
+  ignore line: [Run Build Command:"/usr/bin/ninja" "cmTC_089f0"]
+  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_089f0.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [[2/2] Linking CXX executable cmTC_089f0]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++]
   ignore line: [COLLECT_LTO_WRAPPER=/opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/lto-wrapper]
@@ -211,13 +211,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.3.0 (GCC) ]
   ignore line: [COMPILER_PATH=/opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/:/opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/:/opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/:/opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/:/opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/]
   ignore line: [LIBRARY_PATH=/opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/:/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/lib/:/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0/:/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-rdynamic' '-o' 'cmTC_2cf07' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
-  link line: [ /opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/collect2 -plugin /opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/liblto_plugin.so -plugin-opt=/opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccLNKetQ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux --build-id --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_2cf07 /opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/crt1.o /opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/crti.o /opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0/crtbegin.o -L/opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0 -L/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/lib -L/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0 -L/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib -O1 --hash-style=gnu --as-needed CMakeFiles/cmTC_2cf07.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0/crtend.o /opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-rdynamic' '-o' 'cmTC_089f0' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+  link line: [ /opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/collect2 -plugin /opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/liblto_plugin.so -plugin-opt=/opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc58nZ8Z.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux --build-id --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_089f0 /opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/crt1.o /opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/crti.o /opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0/crtbegin.o -L/opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0 -L/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/lib -L/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0 -L/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib -O1 --hash-style=gnu --as-needed CMakeFiles/cmTC_089f0.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0/crtend.o /opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/crtn.o]
     arg [/opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/opt/fsl-imx-xwayland/4.14-sumo/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccLNKetQ.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc58nZ8Z.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -234,7 +234,7 @@ Parsed CXX implicit link information from above output:
     arg [-EL] ==> ignore
     arg [-maarch64linux] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_2cf07] ==> ignore
+    arg [cmTC_089f0] ==> ignore
     arg [/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/crt1.o] ==> ignore
     arg [/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/crti.o] ==> ignore
     arg [/opt/fsl-imx-xwayland/4.14-sumo/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0/crtbegin.o] ==> ignore
@@ -245,7 +245,7 @@ Parsed CXX implicit link information from above output:
     arg [-O1] ==> ignore
     arg [--hash-style=gnu] ==> ignore
     arg [--as-needed] ==> ignore
-    arg [CMakeFiles/cmTC_2cf07.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_089f0.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -267,11 +267,11 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /home/local/NEATO/running.gao/Downloads/pmd-neato-platform-master_access3_w_4_patterns_including_comparison_1/build/CMakeFiles/CMakeTmp
+Change Dir: /home/local/NEATO/running.gao/Downloads/2-in-2_ToF_Cam_Pattern_Test/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/ninja" "cmTC_2319d"
-[1/2] Building CXX object CMakeFiles/cmTC_2319d.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_2319d
+Run Build Command:"/usr/bin/ninja" "cmTC_f4001"
+[1/2] Building CXX object CMakeFiles/cmTC_f4001.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_f4001
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -334,11 +334,11 @@ Run Build Command:"/usr/bin/ninja" "cmTC_2319d"
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/local/NEATO/running.gao/Downloads/pmd-neato-platform-master_access3_w_4_patterns_including_comparison_1/build/CMakeFiles/CMakeTmp
+Change Dir: /home/local/NEATO/running.gao/Downloads/2-in-2_ToF_Cam_Pattern_Test/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/ninja" "cmTC_d5c43"
-[1/2] Building CXX object CMakeFiles/cmTC_d5c43.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_d5c43
+Run Build Command:"/usr/bin/ninja" "cmTC_70a6a"
+[1/2] Building CXX object CMakeFiles/cmTC_70a6a.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_70a6a
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -401,11 +401,11 @@ Run Build Command:"/usr/bin/ninja" "cmTC_d5c43"
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/local/NEATO/running.gao/Downloads/pmd-neato-platform-master_access3_w_4_patterns_including_comparison_1/build/CMakeFiles/CMakeTmp
+Change Dir: /home/local/NEATO/running.gao/Downloads/2-in-2_ToF_Cam_Pattern_Test/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/ninja" "cmTC_b20bf"
-[1/2] Building CXX object CMakeFiles/cmTC_b20bf.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_b20bf
+Run Build Command:"/usr/bin/ninja" "cmTC_608f2"
+[1/2] Building CXX object CMakeFiles/cmTC_608f2.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_608f2
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -468,11 +468,11 @@ Run Build Command:"/usr/bin/ninja" "cmTC_b20bf"
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/local/NEATO/running.gao/Downloads/pmd-neato-platform-master_access3_w_4_patterns_including_comparison_1/build/CMakeFiles/CMakeTmp
+Change Dir: /home/local/NEATO/running.gao/Downloads/2-in-2_ToF_Cam_Pattern_Test/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/ninja" "cmTC_9cd4f"
-[1/2] Building CXX object CMakeFiles/cmTC_9cd4f.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_9cd4f
+Run Build Command:"/usr/bin/ninja" "cmTC_9fa2d"
+[1/2] Building CXX object CMakeFiles/cmTC_9fa2d.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_9fa2d
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -533,18 +533,18 @@ Run Build Command:"/usr/bin/ninja" "cmTC_9cd4f"
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/local/NEATO/running.gao/Downloads/pmd-neato-platform-master_access3_w_4_patterns_including_comparison_1/build/CMakeFiles/CMakeTmp
+Change Dir: /home/local/NEATO/running.gao/Downloads/2-in-2_ToF_Cam_Pattern_Test/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/ninja" "cmTC_6676b"
-[1/2] Building C object CMakeFiles/cmTC_6676b.dir/CheckIncludeFile.c.o
-[2/2] Linking C executable cmTC_6676b
+Run Build Command:"/usr/bin/ninja" "cmTC_624cb"
+[1/2] Building C object CMakeFiles/cmTC_624cb.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_624cb
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /home/local/NEATO/running.gao/Downloads/pmd-neato-platform-master_access3_w_4_patterns_including_comparison_1/build/CMakeFiles/CMakeTmp
+Change Dir: /home/local/NEATO/running.gao/Downloads/2-in-2_ToF_Cam_Pattern_Test/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/ninja" "cmTC_9ae90"
-[1/2] Building C object CMakeFiles/cmTC_9ae90.dir/CheckFunctionExists.c.o
-[2/2] Linking C executable cmTC_9ae90
+Run Build Command:"/usr/bin/ninja" "cmTC_561a1"
+[1/2] Building C object CMakeFiles/cmTC_561a1.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_561a1
 
 
